@@ -1,0 +1,81 @@
+python infer.py                                                                                                       ✔  4h 35m 31s   torch  
+
+Testing: I can't stop crying... I feel so alone.
+Prompt:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+I cannot stop crying... I feel so alone.
+### Output:
+
+Generated Text:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+I cannot stop crying... I feel so alone.
+### Output:
+sadness, fear
+Parsed Labels:
+ ['sadness', 'fear']
+Prediction dict:
+ {'anger': 0, 'fear': 1, 'joy': 0, 'sadness': 1, 'surprise': 0}
+
+Testing: Thank you so much for your help!
+Prompt:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+Thank you so much for your help!
+### Output:
+
+Generated Text:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+Thank you so much for your help!
+### Output:
+joy
+Parsed Labels:
+ ['joy']
+Prediction dict:
+ {'anger': 0, 'fear': 0, 'joy': 1, 'sadness': 0, 'surprise': 0}
+
+Testing: I just got the best surprise of my life!
+Prompt:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+I just got the best surprise of my life!
+### Output:
+
+Generated Text:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+I just got the best surprise of my life!
+### Output:
+surprise
+Parsed Labels:
+ ['surprise']
+Prediction dict:
+ {'anger': 0, 'fear': 0, 'joy': 0, 'sadness': 0, 'surprise': 1}
+
+Testing: I'm really angry now.
+Prompt:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+i am really angry now.
+### Output:
+
+Generated Text:
+ ### Instruction:
+Detect all applicable emotions from the following sentence. The only valid emotions are: anger, fear, joy, sadness, surprise. Output all that apply, separated by commas.
+### Input:
+i am really angry now.
+### Output:
+anger
+Parsed Labels:
+ ['anger']
+Prediction dict:
+ {'anger': 1, 'fear': 0, 'joy': 0, 'sadness': 0, 'surprise': 0}
