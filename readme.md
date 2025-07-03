@@ -31,7 +31,7 @@ emotion_detection/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/nayemabs/emotion_llama_3.2_1B-url>
 cd emotion_detection
 ```
 
