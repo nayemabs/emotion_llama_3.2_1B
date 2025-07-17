@@ -341,7 +341,7 @@ if __name__ == "__main__":
     # Example usage
     try:
         # Replace with your actual test file path
-        csv_file_path = "data/emotions.csv"
+        csv_file_path = "data/track-a-test.csv"
         
         # Run complete evaluation
         results = evaluate_model(csv_file_path)
