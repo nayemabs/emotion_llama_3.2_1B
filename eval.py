@@ -139,7 +139,7 @@ def plot_confusion_matrices(y_true, y_pred, emotions, save_path=None):
                        xticklabels=['Not ' + emotion, emotion],
                        yticklabels=['Not ' + emotion, emotion],
                        ax=axes[i])
-            axes[i].set_title(f'{emotion.capitalize()} Confusion Matrix')
+            axes[i].set_title(f'{emotion.capitalize()}')
             axes[i].set_xlabel('Predicted')
             axes[i].set_ylabel('Actual')
     
